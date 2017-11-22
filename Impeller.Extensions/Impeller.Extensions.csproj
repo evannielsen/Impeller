@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Evan Nielsen</Authors>
+    <Company />
+    <Product />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A set of common extensions for .net standard 2.0</Description>
   </PropertyGroup>
 
 </Project>
