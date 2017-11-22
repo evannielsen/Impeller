@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Impeller.Extensions</id>
+    <authors>Evan Nielsen</authors>
+    <owners>Evan Nielsen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A set of common extensions for .net standard 2.0</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+    
+  </metadata>
+</package>
