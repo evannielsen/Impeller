@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Evan Nielsen</Authors>
+    <Company />
+    <Product />
+    <Description>Data transfer object for use with other Impeller libraries.</Description>
   </PropertyGroup>
 
 </Project>

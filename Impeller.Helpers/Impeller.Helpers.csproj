@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Evan Nielsen</Authors>
+    <Company />
+    <Product />
+    <Description>Helper classes to aid in common tasks for .net standard 2.0</Description>
   </PropertyGroup>
 
   <ItemGroup>

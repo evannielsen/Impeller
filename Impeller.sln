@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impeller.Extensions", "Impeller.Extensions\Impeller.Extensions.csproj", "{5D3624EF-A4C8-428B-9D69-686834E7F8F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impeller.Extensions", "Impeller.Extensions\Impeller.Extensions.csproj", "{5D3624EF-A4C8-428B-9D69-686834E7F8F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impeller.Models", "Impeller.Models\Impeller.Models.csproj", "{6125DB0E-FF52-41F2-840C-EDDCBF721490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impeller.Models", "Impeller.Models\Impeller.Models.csproj", "{6125DB0E-FF52-41F2-840C-EDDCBF721490}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impeller.Helpers", "Impeller.Helpers\Impeller.Helpers.csproj", "{3704A422-F200-4C68-81AE-AFA93D120510}"
 EndProject
