@@ -9,4 +9,8 @@
     <Description>A set of common extensions for .net standard 2.0</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Impeller.Models\Impeller.Models.csproj" />
+  </ItemGroup>
+
 </Project>
