@@ -13,10 +13,22 @@ namespace Impeller.Models.Dates
         {
         }
 
+        /// <summary>
+        /// The start of the range.
+        /// </summary>
         public DateTime StartDate { get; private set; }
 
+        /// <summary>
+        /// The end of the range.
+        /// </summary>
         public DateTime EndDate { get; private set; }
 
+        /// <summary>
+        /// Generates a date range from two dates.
+        /// </summary>
+        /// <param name="startDate">The start date.</param>
+        /// <param name="endDate">The end date.</param>
+        /// <returns></returns>
         public static DateRange CreateDateRange(DateTime startDate, DateTime endDate)
         {
             if (startDate == null)

@@ -1,6 +1,7 @@
 ﻿using Impeller.Models.Dates;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Impeller.Extensions.Dates
@@ -30,6 +31,29 @@ namespace Impeller.Extensions.Dates
         public static bool DateIsInRange(this DateRange range, DateTime date)
         {
             return range.StartDate >= date && range.EndDate <= date;
+        }  
+
+        /// <summary>
+        /// Provides a collection of the dates in a date range, inclusive.
+        /// Excluding optional dates.
+        /// </summary>
+        /// <param name="dateRange">The range to list the dates.</param>
+        /// <param name="exclusions">The dates to be excluded.</param>
+        /// <returns></returns>
+        public static IEnumerable<DateTime> ListDays(this DateRange dateRange, IEnumerable<DateTime> exclusions = null)
+        {
+            List<DateTime> allDays =
+                Enumerable
+                .Range(0, 1 + dateRange.EndDate.Subtract(dateRange.StartDate).Days)
+                .Select(offset => dateRange.StartDate.AddDays(offset))
+                .ToList();
+
+            if (exclusions != null && exclusions.Any())
+            {
+                allDays.RemoveAll(d => exclusions.Contains(d));
+            }
+
+            return allDays;
         }
     }
 }

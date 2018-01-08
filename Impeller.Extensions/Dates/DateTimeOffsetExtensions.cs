@@ -9,8 +9,8 @@ namespace Impeller.Extensions.Dates
         /// <summary>
         /// Converts an offset time to the specified zone.
         /// </summary>
-        /// <param name="timeOffset"></param>
-        /// <param name="zone"></param>
+        /// <param name="timeOffset">The time offset.</param>
+        /// <param name="zone">The destination time zone.</param>
         /// <returns></returns>
         public static DateTimeOffset ConvertToZone(this DateTimeOffset timeOffset, TimeZoneInfo zone)
         {
